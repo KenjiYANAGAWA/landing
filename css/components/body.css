@@ -1,0 +1,27 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  /* align-items: center; */
+}
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+  color: #646765;
+}
+
+.card img {
+  height: 100px;
+}
